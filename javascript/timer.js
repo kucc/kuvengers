@@ -1,4 +1,4 @@
-let time = 90
+let time = 50
 let timerId = null
 let width = 1170
 
@@ -10,15 +10,15 @@ function timer(begin) {
   timerId = setInterval(() => {
     if (time <= 0) {
       clearInterval(timerId)
-      alert('총 ' + score + '점을 획득하였습니다.');
+      alert("총 " + score + "점을 획득하였습니다.")
       location.reload()
       return
     }
 
     time--
-    width -= 13
+    width -= 23.4
     // timerBar.innerHTML = "Remaining Time: " + time
-    if (time <= 5) {
+    if (time <= 10) {
       timerBar.style.backgroundColor = "red"
     }
     timerBar.style.width = width + "px"
