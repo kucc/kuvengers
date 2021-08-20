@@ -41,11 +41,6 @@ const TAJAHEIGHT = 30
 const DRAWTIME = 1000
 const DOWNTIME = 500
 
-// 생명 변수
-var life = 5
-var lifeDiv = document.getElementById("life")
-lifeDiv.innerHTML = "LIFE : " + life
-
 // 점수 변수
 var score = 0
 var scoreDiv = document.getElementById("score")
@@ -107,15 +102,8 @@ function downTaja() {
         if (plusTop[i] + TAJAHEIGHT >= tajaContents.offsetHeight) {
           if (tajaContents.contains(newObj[i])) {
             tajaContents.removeChild(newObj[i])
-            life--
-            lifeDiv.innerHTML = "LIFE : " + life
 
             // 목숨을 모두 잃었을 때 - 실패
-            if (life === 0) {
-              alert("5개의 생명을 모두 사용하셨습니다.")
-              alert("총 " + score + "점을 획득하였습니다.")
-              location.reload()
-            }
 
             // life가 남은상태로 게임이 끝났을 경우 - 성공
             if (newObj.length === taja.length) {
