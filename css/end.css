@@ -39,3 +39,11 @@
 #rank3 > span {
   background-color: burlywood;
 }
+#restartBtn {
+  margin-top: 30px;
+  font-size: large;
+  background-color: rgb(247, 243, 243);
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}

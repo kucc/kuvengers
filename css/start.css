@@ -10,6 +10,8 @@
   }
 }
 #startContents {
+  font-family: "Sigmar One", cursive;
+  font-weight: bold;
   animation: Movedown 1s ease-in-out;
   background-color: rgb(230, 191, 191);
   width: 1200px;
