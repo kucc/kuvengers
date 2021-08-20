@@ -10,14 +10,23 @@
   justify-content: center;
 }
 #ranking {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .rank {
+  font-size: 30px;
   display: flex;
   align-items: center;
   width: 40vw;
   height: 40px;
   border-bottom: 1px solid black;
+}
+.rank > span {
+  background-color: white;
+  text-align: center;
+  width: 36px;
+  height: 38px;
+  border-radius: 50%;
 }
