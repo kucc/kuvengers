@@ -135,7 +135,7 @@ tajaText.addEventListener("keydown", function (e) {
 
         // 더이상 화면에 뿌려질 단어가 없고
         // life를 다 소진하지않고 clear 했을 경우
-        if (newObj.length === taja.length) {
+        if (newObj.length === taja.length * 10) {
           if (!tajaContents.hasChildNodes()) {
             alert("다음 단계로 이동합니다.(준비중)")
             alert("총 " + score + "점을 획득하였습니다.")
