@@ -55,7 +55,7 @@
   background-color: transparent;
   outline: none;
 }
-#resultBtn {
+#SubmitBtn {
   font-family: "Sigmar One", cursive;
   margin-top: 30px;
   font-size: large;
@@ -63,8 +63,12 @@
   width: 150px;
   height: 40px;
   border-radius: 20px;
+  display: inline-block;
 }
 #score {
   display: inline;
   background-color: rgba(255, 255, 255, 0.3);
+}
+#inputScore {
+  display: inline-block;
 }
