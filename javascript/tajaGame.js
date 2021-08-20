@@ -201,7 +201,7 @@ tajaText.addEventListener("keydown", function (e) {
     }
 });
 
-// 
+
 
 // 클릭 횟수에 대한 변수
 var count = 0;
