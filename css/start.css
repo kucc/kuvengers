@@ -1,4 +1,16 @@
+@keyframes Movedown {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-70px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 #startContents {
+  animation: Movedown 1s ease-in-out;
   background-color: rgb(230, 191, 191);
   width: 1200px;
   height: 800px;
