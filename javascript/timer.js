@@ -10,6 +10,7 @@ function timer(begin) {
   timerId = setInterval(() => {
     if (time <= 0) {
       clearInterval(timerId)
+      alert('총 ' + score + '점을 획득하였습니다.');
       location.reload()
       return
     }
