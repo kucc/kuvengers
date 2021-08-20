@@ -1,6 +1,8 @@
 @import "timer.css";
 @import "start.css";
+@import "end.css";
 #info {
+  font-family: "Sigmar One", cursive;
   float: left;
   margin-left: 50px;
   font-size: 30px;
