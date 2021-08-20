@@ -50,4 +50,6 @@
 }
 #yourscore {
   font-family: "Sigmar One", cursive;
+  display: flex;
+  justify-content: center;
 }
