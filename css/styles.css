@@ -54,3 +54,11 @@
   background-color: transparent;
   outline: none;
 }
+#resultBtn {
+  margin-top: 30px;
+  font-size: large;
+  background-color: rgba(230, 102, 191, 0.76);
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}

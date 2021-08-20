@@ -17,14 +17,16 @@
   align-items: center;
 }
 .rank {
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   width: 40vw;
   height: 40px;
   border-bottom: 1px solid black;
 }
+
 .rank > span {
+  font-size: 30px;
   background-color: beige;
   text-align: center;
   width: 36px;
