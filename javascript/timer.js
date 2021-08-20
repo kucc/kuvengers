@@ -7,6 +7,7 @@ function timer(begin) {
   timerId = setInterval(() => {
     if (time <= 0) {
       clearInterval(timerId)
+      location.reload()
       return
     }
 
