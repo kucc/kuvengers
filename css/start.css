@@ -1,0 +1,33 @@
+#startContents {
+  background-color: rgb(230, 191, 191);
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+#username {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  width: 200px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid black;
+}
+#username:focus {
+  background-color: transparent;
+  outline: none;
+}
+#startBtn {
+  margin-top: 30px;
+  font-size: large;
+  background-color: rgb(247, 243, 243);
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}
