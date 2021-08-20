@@ -24,9 +24,18 @@
   border-bottom: 1px solid black;
 }
 .rank > span {
-  background-color: white;
+  background-color: beige;
   text-align: center;
   width: 36px;
   height: 38px;
   border-radius: 50%;
+}
+#rank1 > span {
+  background-color: gold;
+}
+#rank2 > span {
+  background-color: silver;
+}
+#rank3 > span {
+  background-color: burlywood;
 }
