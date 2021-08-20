@@ -1,0 +1,23 @@
+#endContents {
+  background-color: rgb(230, 191, 191);
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+}
+#bigtitle {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+#ranking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rank {
+  display: flex;
+  align-items: center;
+  width: 40vw;
+  height: 40px;
+  border-bottom: 1px solid black;
+}
