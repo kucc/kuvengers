@@ -33,6 +33,7 @@
   display: inline-block;
 }
 #tajaBtn {
+  font-family: "Sigmar One", cursive;
   margin-top: 30px;
   font-size: large;
   background-color: rgb(247, 243, 243);
@@ -55,6 +56,7 @@
   outline: none;
 }
 #resultBtn {
+  font-family: "Sigmar One", cursive;
   margin-top: 30px;
   font-size: large;
   background-color: rgba(230, 102, 191, 0.76);

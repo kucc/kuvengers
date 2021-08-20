@@ -44,6 +44,7 @@
   background-color: burlywood;
 }
 #restartBtn {
+  font-family: "Sigmar One", cursive;
   margin-top: 30px;
   font-size: large;
   background-color: rgba(230, 102, 191, 0.76);
