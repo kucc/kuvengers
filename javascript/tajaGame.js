@@ -1,5 +1,5 @@
 var taja = [
-  { name: "fifa", picture: "fifa.png" },
+  "fifa",
   "maple",
   "lol",
   "battleground",
@@ -20,6 +20,14 @@ var taja = [
   "로스트아크",
   "블리치",
 ]
+const total = taja.length
+for (let j = 0; j < total; j++) {
+  taja[j + total] = taja[j]
+  taja[j + total * 2] = taja[j]
+  taja[j + total * 3] = taja[j]
+  taja[j + total * 4] = taja[j]
+}
+console.log(taja.length)
 
 // 밑에 선언한 tajaContents 안에 글자로 된 Div를 넣어주게 됩니다.
 var tajaContents = document.getElementById("tajaContents")
