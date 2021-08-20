@@ -21,13 +21,12 @@ var taja = [
   "블리치",
 ]
 const total = taja.length
-for (let j = 0; j < total; j++) {
-  taja[j + total] = taja[j]
-  taja[j + total * 2] = taja[j]
-  taja[j + total * 3] = taja[j]
-  taja[j + total * 4] = taja[j]
+for (let i = 0; i < total; i++) {
+  taja[i + total] = taja[i]
+  taja[i + total * 2] = taja[i]
+  taja[i + total * 3] = taja[i]
+  taja[i + total * 4] = taja[i]
 }
-console.log(taja.length)
 
 // 밑에 선언한 tajaContents 안에 글자로 된 Div를 넣어주게 됩니다.
 var tajaContents = document.getElementById("tajaContents")
