@@ -104,7 +104,6 @@ function downTaja() {
             tajaContents.removeChild(newObj[i])
 
             // 목숨을 모두 잃었을 때 - 실패
-
             // life가 남은상태로 게임이 끝났을 경우 - 성공
             if (newObj.length === taja.length) {
               // 화면에 단어가 다 뿌려진 이후
